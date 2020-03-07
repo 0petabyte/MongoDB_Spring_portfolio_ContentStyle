@@ -1,0 +1,70 @@
+@charset "utf-8";
+
+
+/*회원가입 공통*/
+.boardBusiness{
+	  margin: 0 auto;
+	  margin-left: 300px;
+	  margin-right: auto;
+}
+body{
+	width: 100%;
+}
+/* 회원가입 - 약관동의 */
+.join_agreement{width:100%; overflow-y:auto;height:100px;/* height:190px; */padding:10px 10px 10px 0;border:1px solid #d8d8d8;background-color:#f1f3f4;}
+.join_agreement .personal_wrap{padding-bottom:10px;font-size: 12px;line-height: 16px;}
+.join_agreement .personal_wrap h2{margin:35px 0 20px 0;font-size:14px;font-weight: bold;color:#2c75a8;text-align: center;}
+.join_agreement .personal_wrap h3{margin:25px 0 5px 10px;font-weight:bold;color:#787878;}
+.join_agreement .personal_wrap p,
+.join_agreement .personal_wrap ol,
+.join_agreement .personal_wrap ul,
+.join_agreement .personal_wrap dl{margin-left:15px;line-height:18px}
+.join_agreement .personal_wrap dl dd {color:#231F20}
+.join_check{padding:7px 0 7px 0;margin: 0 0 0 10px}
+.join_check input{vertical-align: middle;} 
+
+
+.btn_center{
+	text-align: center;
+}
+h3{font-size: 15px;}
+
+.conTitles{
+	text-align: center;
+}
+
+input{
+	width: 100%;
+}
+
+
+@media (max-width: 768px){
+	.boardBusiness{	  
+	margin: 0 auto;
+	}
+	label{
+	width: 100px;}
+	.g-recaptcha{
+	margin-left: 1px;}
+	#mobaile{
+	display: block;}
+	.phone{
+	background-color:red;
+	display: block;}
+	th{
+	white-space : nowrap; 
+	}
+	.pc{
+	display: none}
+	
+
+}
+
+@media screen and (min-width: 769px) {
+	#mobaile{
+	background-color:red;
+	display: none;}
+	.phone{
+	display: none}
+
+}

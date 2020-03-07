@@ -1,0 +1,9 @@
+@charset "UTF-8";
+
+table, td{
+	text-align: center;
+}
+
+#title{
+	text-align: left;
+}

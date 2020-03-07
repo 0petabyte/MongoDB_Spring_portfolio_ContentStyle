@@ -1,0 +1,16 @@
+@charset "UTF-8";
+.popup{position: absolute;
+	
+}
+
+.front{
+	z-index: 1110;
+	opacity: 1;
+	border: 1px;
+	margin: auto;	
+}
+.show{
+	position: relative;
+	overflow: auto;
+}
+	
